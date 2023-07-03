@@ -1,0 +1,106 @@
+body{
+    margin:0;
+ 
+}
+.title-container{
+    background-image: url("../images/Alcazar_sev_xxl.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 50px;
+    width: 100%;
+    height:100vh;
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0rem;
+    gap: 3vmin 2vmax;
+
+ }
+.heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding:0;
+    margin:0;
+    
+}
+.sub-heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+#name{
+    font-size: 56pt;
+    color:azure;
+    font-family: 'Aleo', serif;
+    background-color:#92ba6c;
+    text-align: center;
+    padding:10vh 8vw;
+    margin-bottom: 0px;
+}
+#title{
+    font-size:32pt;
+    font-weight:lighter;
+    color:azure;
+    font-family: 'Gotu', sans-serif;
+    background-color: #70a1e6;
+    text-align: center;
+    padding-left:9vw;
+    padding-right: 9vw;
+    margin:0px
+}
+.aboutme-container{
+    margin-top:5vh;
+    display: grid;
+    grid-template-columns: 1fr minmax(500px,1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height:100vh;
+    background-color: #ddd;
+    padding: 0px;
+    gap: 3vmin 2vmax;
+}
+
+.about-title{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.welcome{
+    flex:1;
+    color: #92ba6c;
+    font-size: 34pt;
+    font-family:'Aleo', serif;
+}
+.about-image{
+    grid-row:span 2;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:start;
+    }
+.portrait{
+    flex:0 1 ;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+.about-text{
+    display:flex;
+    flex-direction: row;
+    align-items:start;
+    font-size: 20pt;
+    justify-content: center;
+    align-items:start;
+    font-family: 'Gotu', sans-serif;
+}
+

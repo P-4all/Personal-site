@@ -1,0 +1,102 @@
+body{
+    margin:0;
+ 
+}
+.container{
+    background-image: url("../images/Alcazar_sev_xxl.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: auto auto;
+    flex-wrap: nowrap;
+    max-width:100%;
+    min-width:min-content;
+    height:100vh;
+    flex-direction: inline-column;
+    gap:0px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ }
+.heading{
+    flex:1;
+    margin-top:10rem;
+    padding: 0px;   
+    align-content: center;
+    height:fit-content;
+    }
+.sub-heading{
+    flex: 0.5;
+    padding: 0px;
+    height:fit-content;
+    }
+.empty{
+    flex:2;
+}
+
+#name{
+    background-color:#92ba6c;
+    font-size: 56pt;
+    min-width:500px;
+    min-height:100px;
+    color:azure;
+    font-family: 'Aleo', serif;
+    text-align:center;
+    padding:5rem 8rem;
+}
+#title{
+    background-color: #70a1e6;
+    font-size:32pt;
+    color:azure;
+    font-family: 'Gotu', sans-serif;
+    font-weight:lighter;
+    text-align:center;
+    margin:0;
+    padding:0px 13rem;
+    min-width:280px;
+    min-height:70px;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:none;
+    width: 800px;
+    /*
+    display:flex;
+    height:100vh;
+    flex-direction:row-reverse;
+    margin-top:100px;
+    gap:400px;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    */
+}
+.portrait-item{
+    flex:1;
+    max-width:768px;
+    max-height: 768px;
+    margin-right:300px;
+    }
+.portrait{
+    max-width:768px;
+    border-radius: 50%;
+    font-family: 'Gotu', sans-serif;;
+}
+.about{
+    flex:1;
+    font-size: 30pt;
+    margin-left:300px;
+    font-family: 'Gotu', sans-serif;
+}
+.welcome{
+    color: #92ba6c;
+    font-size: 60pt;
+    font-family:'Aleo', serif;
+}
