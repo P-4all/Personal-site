@@ -9,7 +9,7 @@
     background-position: center center;
 
     display: grid;
-    grid-template-rows: auto auto 0.8fr;
+    grid-template-rows: auto auto 0.75fr;
     grid-template-columns: auto auto auto;
     grid-auto-rows: 50px;
     width: 100%;
@@ -37,22 +37,22 @@
 }
 
 #name{
-    font-size: 51pt;
+    font-size: 50pt;
     color:azure;
     font-family: 'Aleo', serif;
     background-color:#92ba6c;
     text-align: center;
-    padding:10vh 8vw;
+    padding:9vh 7vw;
     margin-bottom: 0px;
 }
 #title{
-    font-size:29pt;
+    font-size:28pt;
     font-weight:lighter;
     color:azure;
     font-family: 'Gotu', sans-serif;
     background-color: #70a1e6;
     text-align: center;
-    padding-left:9vw;
-    padding-right: 9vw;
+    padding-left:8vw;
+    padding-right: 8vw;
     margin:0px
 }
