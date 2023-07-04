@@ -1,5 +1,7 @@
+
 body{
     margin:0;
+    padding:env(safe-area-inset);
 }
 .title-container{
     background-image: url("../images/Alcazar_sev_xxl.jpeg");
