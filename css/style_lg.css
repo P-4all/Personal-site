@@ -171,10 +171,10 @@ body{
 }
 .card{
     display:flex;
-    gap: 50px;
+    gap: 0px;
     flex-direction: column;
     justify-content: space-between;
-    width:300px;  
+    min-width:200px;  
     border: solid #92ba6c; 
     border-radius:20px;
     background-color: #c9e9ac;
@@ -188,25 +188,25 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom:30px
+    margin-bottom:5px;
 }
 
 .card-text{
-    font-size:17pt;
+    font-size:12pt;
     font-family: 'Gotu', sans-serif;
-    margin:25px
+    margin:10px;
 }
 .btn {
     background-color: #70a1e6;
     border: none;
-    border-radius: 11px;
+    border-radius: 10px;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-weight:lighter;
     font-family: 'Gotu', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
