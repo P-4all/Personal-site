@@ -180,13 +180,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height:100vh;
+    height:100%;
+    width:100%;
 }
 .ctme-cont{
     display:grid;
     grid-template-columns: 77px 1120px 1fr;
     grid-template-rows: 36.5px 369.1px 1fr ;
     height:100%;
+    width:100%;
     position:relative;
 }
 
