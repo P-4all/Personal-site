@@ -176,8 +176,8 @@ body{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin-bottom:15px;
 }
-  /*contact me section*/
-  .ctme-sec-cont{
+/*contact me section*/
+.ctme-sec-cont{
     background-image: url("../images/cnt-bckg.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,36 +187,38 @@ body{
 }
 .ctme-cont{
     display:grid;
-    grid-template-columns: 5px 280px 1fr;
-    grid-template-rows: 36.5px 269.1px 1fr ;
+    grid-template-columns: 1fr 260px 1fr;
+    grid-template-rows: 20px 350px 1fr;
     height:100%;
     width:100%;
     position:relative;
 }
 
 .geometry{
-    max-width: 350px;
+    max-width: 260px;
 }
 .geometry-div{
     height: fit-content;
+    position:absolute;
 } 
 #main-img{
     content:url("../images/figure_sm.png");
+    position :absolute;
 }
 .ctme-txt{
     position: absolute;
 }
 #cnt-me{
-margin-left:30px;
-margin-top: 55px;
+margin-left:20px;
+margin-top: 10px;
 margin-bottom:0px;
-font-size:50px;
+font-size:27px;
 font-family: 'Aleo','serif';
 color: azure;
 }   
 ul { 
-    padding-left:25px; list-style:none; 
-    margin-top:7.1px;
+    padding-left:20px; list-style:none; 
+    margin-top:0px;
 }
 li{
     display:flex;
@@ -224,19 +226,19 @@ li{
     flex-wrap: nowrap;
     justify-content: start;
     align-items: center;
-    gap:10.4px;
+    gap:5px;
     padding:0px;
 }
 li >* { 
-    margin-top:5px;
-    margin-bottom:10px; 
+    margin-top:15px;
+    margin-bottom:5px; 
     font-family:'sofia','sans';
     color: azure;
-    font-size:18px; 
+    font-size:15px; 
 }
 .icon{
-    width: 25px;
-    height:25px;
+    width: 15px;
+    height:15px;
 }
 a{
     text-decoration: none;
@@ -247,9 +249,9 @@ a:hover {
 /*footer style*/
 #footer{
     background-color:#C1A58B ;
-    margin-top:-50px;
+    margin-top:-10px;
     padding:0px;
-    height:min-content;
+    height:100%;
 }
 .footer-cont{
     margin:10px;

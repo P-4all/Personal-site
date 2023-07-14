@@ -185,7 +185,7 @@ body{
 }
 .ctme-cont{
     display:grid;
-    grid-template-columns: 77px 1120px 1fr;
+    grid-template-columns: 0.1px 1000px 1fr;
     grid-template-rows: 36.5px 369.1px 1fr ;
     height:100%;
     width:100%;
@@ -193,7 +193,7 @@ body{
 }
 
 .geometry{
-max-width: 1120px;
+max-width: 1000px;
 }
 .geometry-div{
     height: fit-content;
