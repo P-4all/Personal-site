@@ -236,15 +236,14 @@ a{
 }
 a:hover {
     text-decoration: underline;
-  }
+}
   /*footer style*/
   #footer{
     background-color:#C1A58B ;
     margin-top:-50px;
     padding:0px;
     height:min-content;
- 
-  }
+ }
   .footer-cont{
     margin:50px;
     margin-bottom:0px;
