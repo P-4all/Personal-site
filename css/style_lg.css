@@ -106,50 +106,6 @@ body{
     font-size: 17pt;
     margin: 0px 0px 0px 3vw
 }
-@media (min-width:590px) and (max-width:800px){
-    .aboutme-container{
-        display:flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-     }
-    .about-image{
-        grid-row: 1;
-        flex:flex;
-        margin:0px;
-        max-height:fit-content;
-    }
-    .portrait {
-        width:280px;
-        height:280px;
-        margin-top:100px;
-    } 
-    .about-title{
-        flex:0 0 auto;
-        order:1;
-        max-width:fit-content;
-        margin-top:40px;
-    }
-    .welcome{
-        font-size:57px;
-        text-align: center;
-        margin:0px;
-    }
-    .about-text{
-        order:2;
-        flex:1;
-        align-items:start;
-        max-height:fit-content;
-        max-width:fit-content;
-        margin-top: 30px;
-    }
-    #about-txt{
-        font-size: 25pt;
-        text-align:justify;
-        margin:0px;
-        width:580px
-    }
-}
 /*Section about Relevant projects*/
 .rel-title{
     margin-top:50px;
@@ -329,4 +285,48 @@ a:hover {
     width: 30px;
     height: 30px;
 }
-  
+/*spacial case forabout me section*/  
+@media (min-width:590px) and (max-width:800px){
+    .aboutme-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+     }
+    .about-image{
+        grid-row: 1;
+        flex:flex;
+        margin:0px;
+        max-height:fit-content;
+    }
+    .portrait {
+        width:280px;
+        height:280px;
+        margin-top:100px;
+    } 
+    .about-title{
+        flex:0 0 auto;
+        order:1;
+        max-width:fit-content;
+        margin-top:40px;
+    }
+    .welcome{
+        font-size:57px;
+        text-align: center;
+        margin:0px;
+    }
+    .about-text{
+        order:2;
+        flex:1;
+        align-items:start;
+        max-height:fit-content;
+        max-width:fit-content;
+        margin-top: 30px;
+    }
+    #about-txt{
+        font-size: 25pt;
+        text-align:justify;
+        margin:0px;
+        width:580px
+    }
+}
